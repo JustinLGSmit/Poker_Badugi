@@ -26,7 +26,7 @@ class Deck:
                 # card.print_card()
 
     def shuffle_and_deal(self, card_count):
-        # Randomize deck and add 5 cards to hand
+        # Randomize deck and add cards to hand
         print("Shuffling...Shuffling...Shuffling...")
         random.shuffle(self.cards)
         for _ in range(card_count):
